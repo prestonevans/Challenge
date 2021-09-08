@@ -52,19 +52,25 @@ body {
 }
 .box1 > div,
 .box3 > div,
-.box5 > div {
+.box5 > div,
+.box6 > div {
 	flex-basis: 100%;
+}
+.box6 > div:first-child {
+	flex-basis: 50%;
 }
 .box1 > div:first-child,
 .box3 > div:first-child,
-.box5 > div:first-child {
+.box5 > div:first-child,
+.box6 > div:first-child {
 	border-radius: 20px;
 	margin-right: 10px;
 	background-size: cover;
 	background-position: center;
 }
 .box1 > div:nth-child(2),
-.box5 > div:nth-child(2) {
+.box5 > div:nth-child(2),
+.box6 > div:nth-child(2) {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -150,4 +156,43 @@ body {
 }
 .box5 i:last-child {
 	color: rgb(115, 136, 151);
+}
+.box6 {
+	display: flex;
+}
+.box6 span {
+	color: rgb(185, 196, 204);
+}
+.stats {
+	display: flex;
+	padding: .5rem;
+	border-radius: .5em;
+	background-color: rgb(242, 245, 248);
+}
+.stats div {
+	flex-basis: 100%;
+}
+.stats p {
+	color: black;
+	font-size: 2rem;
+}
+.stats span {
+	color: rgb(123, 143, 158);
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.buttons button {
+	padding: 1em 3em;
+	border-radius: 1em;
+}
+.buttons :first-child {
+	border: thin solid rgb(83, 116, 254);
+	color: rgb(83, 116, 254);
+	background-color: transparent;
+}
+.buttons :last-child {
+	background-color: rgb(83, 116, 254);
+	color: rgb(255, 255, 255);
 }
