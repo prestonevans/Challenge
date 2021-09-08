@@ -30,7 +30,7 @@ body {
 	padding: 20px;
 }
 .box:not(:last-child),
-.box i {
+.box7 i {
 	box-shadow: 10px 14px 17px 8px rgb(0 0 0 / 11%);
 }
 .box:last-child > div:last-child {
