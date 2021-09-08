@@ -30,7 +30,7 @@ body {
 	padding: 20px;
 }
 .box:not(:last-child),
-.box7 i {
+.box7 .square {
 	box-shadow: 10px 14px 17px 8px rgb(0 0 0 / 11%);
 }
 .box:last-child > div:last-child {
@@ -221,9 +221,8 @@ body {
 	align-items: center;
 }
 .box7 i {
-	background-color: white;
-	font-size: 2rem;
-	padding: .5em;
+	background-color: transparent;
+	font-size: 1rem;
 	border-radius: 50%;
 }
 .box7 > div:last-child {
@@ -234,7 +233,15 @@ body {
 	align-content: center;
 	gap: 5px;
 }
-
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
 .tag {
 	background-color: rgb(242, 245, 248);
 	padding: .5em;
