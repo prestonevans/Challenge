@@ -171,6 +171,7 @@ body {
 }
 .stats div {
 	flex-basis: 100%;
+	text-align: center;
 }
 .stats p {
 	color: black;
@@ -195,4 +196,39 @@ body {
 .buttons :last-child {
 	background-color: rgb(83, 116, 254);
 	color: rgb(255, 255, 255);
+}
+.box7 {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+.box7 > div {
+	flex-basis: 100%;
+}
+.box7 > div:first-child {
+	background-color: rgb(211, 211, 211);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box7 i {
+	background-color: white;
+	font-size: 2rem;
+	padding: .5em;
+	border-radius: 50%;
+}
+.box7 > div:last-child {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: center;
+	gap: 5px;
+}
+
+.tag {
+	background-color: rgb(242, 245, 248);
+	padding: .5em;
+	border-radius: 1em;
+	color: rgb(145, 161, 174);
 }
